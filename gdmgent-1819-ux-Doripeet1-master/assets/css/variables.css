@@ -3,7 +3,7 @@
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --color-green: hsl(175, 54%, 52%);
   --color-white: #FFFFFF ;
   --color-grey:#707070;
   --color-black: #000000;
@@ -16,7 +16,7 @@
    * Typography
    */
   
-  --font-body: 'gineso', sans-serif;
+  --font-body: 'open sans', sans-serif;
   --font-logo:'GaramondFBDisplay, serif ';
   --t-primary: Arial, Helvetica, sans-serif;
   --t-secondary: Arial, Helvetica, sans-serif;

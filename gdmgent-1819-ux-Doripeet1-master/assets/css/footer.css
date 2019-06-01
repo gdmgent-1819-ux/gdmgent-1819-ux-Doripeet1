@@ -1,6 +1,8 @@
 :root{
     --font-body: 'gineso', sans-serif;
     --font-logo:'GaramondFBDisplay, serif '
+    --color-green: hsl(175, 54%, 52%);
+
 }
 .nav-footer ul{
     list-style: none;
@@ -72,7 +74,7 @@ h3{
 }
 
 footer{
-    border: 1px solid black;
+    border: 2px solid var(--color-green);
     margin-top: 40px;
     border-bottom:0;
     border-left: 0;
