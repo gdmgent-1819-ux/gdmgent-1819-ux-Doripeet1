@@ -1,0 +1,107 @@
+@import "../css/footer.css";
+@import "../css/header.css";
+
+@import "/assets/css/components/grid/bootstrap-grid.css";
+@import "/assets/css/components/grid/bootstrap-grid.css.map";
+@import "/assets/css/components/grid/bootstrap-grid.min.css";
+@import "/assets/css/components/grid/bootstrap-grid.min.css.map";
+@import "/assets/css/components/grid/bootstrap-reboot.css";
+@import "/assets/css/components/grid/bootstrap-reboot.css.map";
+@import "/assets/css/components/grid/bootstrap-reboot.min.css";
+@import "/assets/css/components/grid/bootstrap-reboot.min.css.map";
+@import "/assets/css/components/grid/bootstrap.css";
+@import "/assets/css/components/grid/bootstrap.css.map";
+@import "/assets/css/components/grid/bootstrap.min.css";
+@import "/assets/css/components/grid/bootstrap.min.css.map";
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/code";
+@import "../node_modules/bootstrap/scss/grid";
+
+:root{
+    --font-body: 'gineso', sans-serif;
+    --font-logo:'GaramondFBDisplay, serif '
+}
+
+/*
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 40px;
+}*/
+
+.afbeelding1{
+    height: 390px;
+    background-image: url("../img/xochi-111556-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.afbeelding2{
+    height: 673px;
+    background-image: url("../img/patrick-schneider-366016-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.afbeelding3{
+    height:  766px;
+    background-image: url("../img/seemi-samuel-15564-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.afbeelding4{
+    height:  434px;
+    background-image: url("../img/shangyou-shi-543887-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.kader1{
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid gray;
+    padding-top:63px;
+    padding-bottom: 63px;
+    padding-left: 43px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.kader2{
+    font-family: var(--font-body);
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid gray;
+    padding-top: 28px;
+    padding-bottom: 35px;
+    padding-left: 43px;
+    padding-right: 43px;
+    margin-bottom: 20px;
+    
+}
+
+h2{
+    font-family: var(--font-body);
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+.btn1{
+    background-color: rgba(255, 255, 255, 0.486);
+    color: rgb(0, 0, 0);
+    width: 95pt;
+    height: 26pt;
+    border: 1px solid #707070;
+    font-family: 'Granville', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+    color: rgb(0, 0, 0);
+    width: 100pt;
+    height: 30pt;
+    border: 1px solid #707070;
+    font-family: 'Granville', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 6px 4px 9px 1px #707070;
+}
+
+.btn2{
+    background-color: white;
+    color: balck;
+    width: 109 pt;
+    height: 29 pt;
+    border: 2px solid black;
+    font-family: var(--font-body);
+    font-size: 12 pt;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.btn2{
+    background-color: white;
+    color: balck;
+    width: 109 pt;
+    height: 29 pt;
+    border: 2px solid black;
+    font-family: var(--font-body);
+    font-size: 12 pt;
+    font-weight: normal;
+    text-decoration: underline;
+    box-shadow: 6px 4px 9px 1px #707070;
+}

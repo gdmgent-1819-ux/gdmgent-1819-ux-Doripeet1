@@ -1,0 +1,31 @@
+
+:root {
+  /**
+   * Colour palette
+   */
+  --c-primary: hsl(190, 100%, 40%);
+  --color-white: #FFFFFF ;
+  --color-grey:#707070;
+  --color-black: #000000;
+
+  /**
+   * Layout
+   */
+
+  /**
+   * Typography
+   */
+  
+  --font-body: 'gineso', sans-serif;
+  --font-logo:'GaramondFBDisplay, serif ';
+  --t-primary: Arial, Helvetica, sans-serif;
+  --t-secondary: Arial, Helvetica, sans-serif;
+  --t-tertiary: monospace;
+
+  --t-headline: var(--t-primary);
+  --t-subtitle: var(--t-primary);
+  --t-body: var(--t-secondary);
+  --t-code: var(--t-tertiary);
+}
+
+
